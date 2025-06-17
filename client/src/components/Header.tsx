@@ -21,7 +21,7 @@ const Header = () => {
   };
 
  const handleAdminLogin = () => {
-  window.location.href = "http://localhost:8066/admin/login"; // Redirect to admin login page
+  window.location.href = "https://admin-bay-zeta.vercel.app/admin/login"; // Redirect to admin login page
 };
 
   return (
