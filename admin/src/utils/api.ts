@@ -1,6 +1,6 @@
 import axios, { AxiosRequestConfig, AxiosResponse, InternalAxiosRequestConfig } from 'axios';
 
-const API_BASE_URL = 'http://localhost:3000'; // 🔁 Replace this if backend is hosted elsewhere
+const API_BASE_URL = 'https://mern-blog-xu5s.onrender.com'; // 🔁 Replace this if backend is hosted elsewhere
 
 // Create axios instance
 const api = axios.create({
