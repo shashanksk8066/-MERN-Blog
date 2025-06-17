@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:3000';
+const API_BASE_URL = 'https://mern-blog-xu5s.onrender.com';
 
 // Helper function to get auth token
 const getAuthToken = () => {
