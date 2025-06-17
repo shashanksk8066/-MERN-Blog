@@ -14,7 +14,7 @@ interface AuthModalProps {
 }
 
 const handleAdminLogin = () => {
-  window.location.href = "https://admin-bay-zeta.vercel.app"; // Redirect to admin login page
+  window.location.href = "http://localhost:8066/admin/login"; // Redirect to admin login page
 };
 
 const AuthModal = ({ isOpen, onClose, mode, onModeChange }: AuthModalProps) => {
